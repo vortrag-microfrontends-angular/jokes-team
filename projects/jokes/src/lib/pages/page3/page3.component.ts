@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { JokeFacade } from '../../store/joke/joke.facade';
+import { JokeFacade } from '@mr-talk/jokes-store';
 
 @Component({
   selector: 'app-page3',

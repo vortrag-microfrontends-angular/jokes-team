@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
-import { JokeFacade } from '../../store/joke/joke.facade';
-
+import { JokeFacade } from '@mr-talk/jokes-store';
 @Component({
   selector: 'jo-random-joke',
   templateUrl: './random-joke.component.html',

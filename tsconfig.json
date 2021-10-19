@@ -9,7 +9,11 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "paths": {
-      "@mr-talk/jokes": ["dist/jokes/jokes", "dist/jokes"]
+      "@mr-talk/jokes": ["dist/jokes/jokes", "dist/jokes"],
+      "@mr-talk/jokes-store": [
+        "dist/jokes-store/jokes-store",
+        "dist/jokes-store"
+      ]
     },
     "sourceMap": true,
     "declaration": false,

@@ -1,12 +1,11 @@
 {
-  "name": "@mr-talk/jokes",
+  "name": "@mr-talk/jokes-store",
   "version": "0.0.2",
   "peerDependencies": {
     "@angular/common": "^12.2.0",
     "@angular/core": "^12.2.0",
-    "@angular/material": "^12.2.10",
-    "@mr-talk/mr-core": "*",
-    "@mr-talk/jokes-store": "*"
+    "@ngrx/effects": "^12.5.0",
+    "@ngrx/store": "^12.5.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"

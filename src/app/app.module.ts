@@ -8,8 +8,9 @@ import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { HttpClientModule } from '@angular/common/http';
-import { JokeModule, RandomJokeModule } from '@mr-talk/jokes';
+import { RandomJokeModule } from '@mr-talk/jokes';
 import { MrCoreModule } from '@mr-talk/mr-core';
+import { JokesStoreModule } from '@mr-talk/jokes-store';
 
 import { environment } from '../environments/environment';
 
@@ -27,7 +28,7 @@ import { environment } from '../environments/environment';
       logOnly: environment.production,
     }),
     MrCoreModule,
-    JokeModule,
+    JokesStoreModule,
     RandomJokeModule,
   ],
   providers: [],
